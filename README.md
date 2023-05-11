@@ -289,18 +289,18 @@ Hang tight while we grab the latest from your chart repositories...
 Update Complete. ⎈Happy Helming!⎈
 
 $ helm search repo awx-operator
-NAME                            CHART VERSION   APP VERSION     DESCRIPTION
-awx-operator/awx-operator       0.17.1          0.17.1          A Helm chart for the AWX Operator
+NAME                     	CHART VERSION	APP VERSION	DESCRIPTION                      
+awx-operator/awx-operator	2.1.0        	2.1.0      	A Helm chart for the AWX Operator
 
 $ helm install -n awx --create-namespace my-awx-operator awx-operator/awx-operator
 NAME: my-awx-operator
-LAST DEPLOYED: Thu Feb 17 22:09:05 2022
-NAMESPACE: default
+LAST DEPLOYED: Thu May 11 17:18:35 2023
+NAMESPACE: awx
 STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 NOTES:
-Helm Chart 0.17.1
+AWX Operator installed with Helm Chart version 2.1.0
 ```
 
 ### Admin user account configuration
